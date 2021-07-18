@@ -3,7 +3,7 @@
 
 ## Overview: 
 
-The purpose of this analysis was to use unsupervised machine learning algorithms to analyze cryptocurrency data.  The original data in the crypto_data.csv file was processed with pandas in a python jupyter notebook to enable the use of the Kmeans machine learning algorithm.  An elbow curve was used to determine the number of clusters to use in the machinelearning algorithm and a 3d plot was created to show the results.  MinMaxScaler was later used to rescale the TotalCoinSupply and TotalCoinsMined columns and a new dataframe and hvplot scatter plot were made. 
+The purpose of this analysis was to use unsupervised machine learning algorithms to analyze cryptocurrency data.  The original data in the crypto_data.csv file was pre-processed with pandas in a python jupyter notebook to enable the use of the K-means machine learning algorithm. PCA was also used to reduce the dimensions of the dataframe. An elbow curve was used to determine the number of clusters to use in the machinelearning algorithm and a 3d plot was created to show the results.  MinMaxScaler was later used to rescale the TotalCoinSupply and TotalCoinsMined columns and a new dataframe and hvplot scatter plot were made. 
 
 
 ### K means Elbow Curve
